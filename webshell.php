@@ -3,6 +3,7 @@
 //
 // PoC: a simple webshell 
 // Author: Bonghwan Choi
+// modified by WBOAN
 //
 
 echo 'Enter a Command:<br>';
