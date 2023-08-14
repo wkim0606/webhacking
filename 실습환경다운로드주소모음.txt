@@ -1,6 +1,6 @@
-VirtualBox - https://www.virtualbox.org/wiki/Downloads
-Ä®¸®¸®´ª½º - https://www.kali.org/downloads/
-Ä®¸®¸®´ª½º 32ºñÆ® ¹öÃò¾ó¹Ú½º ¹öÀü - https://images.offensive-security.com/virtual-images/Kali-Linux-2016.2-vbox-i686.ova
-XAMPP ¸®´ª½º¿ë 32bit - https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/5.6.23/xampp-linux-5.6.23-0-installer.run/download	
+VMware - https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html
+ì¹¼ë¦¬ë¦¬ëˆ…ìŠ¤ - https://old.kali.org/kali-images/kali-2021.1/
+Ubuntu - http://releases.ubuntu.com/20.04/
+XAMPP https://www.apachefriends.org/	
 DVWA 1.9 - https://github.com/ethicalhack3r/DVWA/archive/v1.9.zip
-ÃÖÁ¾½Ç½À¿ë ÆæÅ×½ºÅÍ·¦ ISOÆÄÀÏ - https://pentesterlab.com/exercises/from_sqli_to_shell/iso
+ìµœì¢…ì‹¤ìŠµìš© íœí…ŒìŠ¤í„°ë© ISOíŒŒì¼ - https://pentesterlab.com/exercises/from_sqli_to_shell/iso
