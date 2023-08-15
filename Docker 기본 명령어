@@ -1,0 +1,16 @@
+Ubuntu에 Docker 를 설치한 후 dvwa 를 실행하기 위한 기본적인 명령어
+$ snap install docker
+$ apt install docker.io
+$ docker --version
+$ docker search dvwa
+$ docker pull wkim0606/dvwa
+
+$ docker run  [-it] --rm --name wboan-dvwa -p 80:80 wkim0606/dvwa
+$ docker images
+$ docker ps -a
+
+$ docker exec -it wboan-dvwa /bin/bash   
+
+$ docker cp dae.....:/etc/php/7.0/apache2/php.ini php.ini
+$ docker cp php.ini dae.....:/etc/php/7.0/apache2/php.ini
+$ docker exec wboan-dvwa /etc/init.d/apache2 reload
