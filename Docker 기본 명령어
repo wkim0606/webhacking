@@ -11,6 +11,6 @@ $ docker ps -a
 
 $ docker exec -it wboan-dvwa /bin/bash   
 
-$ docker cp dae.....:/etc/php/7.0/apache2/php.ini php.ini
-$ docker cp php.ini dae.....:/etc/php/7.0/apache2/php.ini
+$ docker cp [컨테이너번호]:/etc/php/7.0/apache2/php.ini php.ini
+$ docker cp php.ini [컨테이너번호]:/etc/php/7.0/apache2/php.ini
 $ docker exec wboan-dvwa /etc/init.d/apache2 reload
